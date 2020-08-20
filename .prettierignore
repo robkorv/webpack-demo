@@ -2,4 +2,4 @@
 package-lock.json
 
 # genereated by webpack
-dist/bundle.js
+dist
