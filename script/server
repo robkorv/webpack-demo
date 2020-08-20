@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# script/server: Launch the application and any extra required processes
+#                locally.
+
+set -e
+
+cd "$(dirname "$0")/.."
+
+ECHO_PREPEND="${0##*/} ==>"
+
+echo "$ECHO_PREPEND START"
+
+echo "$ECHO_PREPEND starting server"
+npm start
+
+echo "$ECHO_PREPEND END"
